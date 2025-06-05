@@ -19,8 +19,11 @@ jobs:
       - name: Checkout repository
         uses: actions/checkout@v4
 
-      - name: Set up environment
-        run: sudo apt-get update && sudo apt-get install -y curl netcat moreutils
+      - name: Install dependencies
+        run: |
+          sudo apt-get update
+          sudo apt-get install -y curl netcat-openbsd npm
+          npm install -g wscat
 
       - name: Download tracker sources
         run: |
@@ -33,10 +36,6 @@ jobs:
           bash format.sh trackers_temp.txt
           sort -u formatted_trackers.txt > qb_trackers_all.txt
           rm -f trackers_temp.txt formatted_trackers.txt
-
-      - name: Install wscat for WSS tracker test
-        run: |
-          npm install -g wscat
 
       - name: Test tracker availability
         run: |
