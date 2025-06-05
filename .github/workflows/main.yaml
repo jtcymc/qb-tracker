@@ -1,0 +1,53 @@
+name: Daily Update QB Tracker
+
+on:
+  push:
+    branches:
+      - main
+  schedule:
+    - cron: "0 12 * * *" # 每天 UTC 中午12点，约北京时间晚上8点
+
+permissions:
+  contents: write
+
+jobs:
+  update-trackers:
+    name: Update and Test Trackers
+    runs-on: ubuntu-latest
+
+    steps:
+      - name: Checkout repository
+        uses: actions/checkout@v4
+
+      - name: Set up environment
+        run: sudo apt-get update && sudo apt-get install -y curl netcat moreutils
+
+      - name: Download tracker sources
+        run: |
+          curl -sSL https://raw.githubusercontent.com/ngosang/trackerslist/master/trackers_all.txt > trackers_temp.txt
+          curl -sSL https://raw.githubusercontent.com/XIU2/TrackersListCollection/master/all.txt >> trackers_temp.txt
+          echo "Downloaded tracker sources."
+
+      - name: Format trackers
+        run: |
+          bash format.sh trackers_temp.txt
+          sort -u formatted_trackers.txt > qb_trackers_all.txt
+          rm -f trackers_temp.txt formatted_trackers.txt
+
+      - name: Install wscat for WSS tracker test
+        run: |
+          npm install -g wscat
+
+      - name: Test tracker availability
+        run: |
+          bash test_trackers.sh qb_trackers_all.txt
+        shell: bash
+
+      - name: Commit and push changes
+        run: |
+          echo "$(date +'%Y-%m-%d')" > date.txt
+          git config --local user.email "action@github.com"
+          git config --local user.name "GitHub Action"
+          git add qb_trackers_all.txt date.txt
+          git commit -m "Update trackers: $(date +'%Y-%m-%d')" || echo "No changes to commit."
+          git push
