@@ -12,7 +12,7 @@ jobs:
     runs-on: ubuntu-latest
     steps:
       - name: Checkout repository
-        run: git clone $GITEA_REPOSITORY_URL .
+        run: actions/checkout@v4
 
       - name: Install dependencies
         run: |
