@@ -4,10 +4,15 @@ http://0d.kebhana.mx:443/announce
 http://0x7c.space:7070/announce
 http://10.rarbg.com/announce
 http://11.rarbg.com/announce
+http://123.245.62.72:6969/announce
 http://1337.abcvg.info/announce
 http://147job.com:6969/announce
+http://204.197.163.27/announce
 http://207.241.226.111:6969/announce
 http://207.241.231.226:6969/announce
+http://211.75.210.221:6969/announce
+http://34.94.76.146/announce
+http://60.249.37.20:6969/announce
 http://[2a04:ac00:1:3dd8::1:2710]:2710/announce
 http://aaa.army:8866/announce
 http://aboutbeautifulgallopinghorsesinthegreenpasture.online/announce
@@ -463,8 +468,10 @@ udp://147job.com:6969/announce
 udp://1c.premierzal.ru:6969/announce
 udp://207.241.226.111:6969/announce
 udp://207.241.231.226:6969/announce
+udp://23.140.248.9:1337/announce
 udp://47.ip-51-68-199.eu:6969/announce
 udp://52.58.128.163:6969/announce
+udp://54.39.48.3:6969/announce
 udp://6.pocketnet.app:6969/announce
 udp://6ahddutb1ucc3cp.ru:6969/announce
 udp://7p41a8967.wicp.vip:22222/announce
