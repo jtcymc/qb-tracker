@@ -11,7 +11,7 @@ on:
 
 jobs:
   update-trackers:
-    runs-on: ubuntu-latest
+    runs-on: [ubuntu-latest, home-global-1]
     steps:
       - name: Check out the repo
         uses: actions/checkout@v4
