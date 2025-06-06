@@ -4,6 +4,8 @@ on:
   push:
     branches:
       - main
+    paths-ignore:
+      - ".gitea/**"
   schedule:
     - cron: "0 12 * * *" # 每天 UTC 中午12点，约北京时间晚上8点
 
