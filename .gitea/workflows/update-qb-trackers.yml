@@ -5,19 +5,14 @@ on:
     branches:
       - main
   schedule:
-    - cron: "0 12 * * *" # 每天 UTC 中午12点，约北京时间晚上8点
-
-permissions:
-  contents: write
+    - cron: "0 12 * * *" # 每天 UTC 中午12点
 
 jobs:
   update-trackers:
-    name: Update and Test Trackers
     runs-on: ubuntu-latest
-
     steps:
       - name: Checkout repository
-        uses: actions/checkout@v4
+        run: git clone $GITEA_REPOSITORY_URL .
 
       - name: Install dependencies
         run: |
@@ -29,9 +24,8 @@ jobs:
         run: |
           curl -sSL https://raw.githubusercontent.com/ngosang/trackerslist/master/trackers_all.txt > trackers_temp.txt
           curl -sSL https://raw.githubusercontent.com/XIU2/TrackersListCollection/master/all.txt >> trackers_temp.txt
-          curl https://raw.githubusercontent.com/hezhijie0327/Trackerslist/main/trackerslist_tracker.txt >> trackers_temp.txt
-          curl https://api.yaozuopan.top:88/composite?key=bt&auth=3cae9a3a53f1daef137126648a535ab7 >> trackers_temp.txt
-          echo "Downloaded tracker sources."
+          curl -sSL https://raw.githubusercontent.com/hezhijie0327/Trackerslist/main/trackerslist_tracker.txt >> trackers_temp.txt
+          curl -sSL "https://api.yaozuopan.top:88/composite?key=bt&auth=3cae9a3a53f1daef137126648a535ab7" >> trackers_temp.txt
 
       - name: Format trackers
         run: |
@@ -40,15 +34,13 @@ jobs:
           rm -f trackers_temp.txt formatted_trackers.txt
 
       - name: Test tracker availability
-        run: |
-          bash test_trackers.sh qb_trackers_all.txt
-        shell: bash
+        run: bash test_trackers.sh qb_trackers_all.txt
 
       - name: Commit and push changes
         run: |
           echo "$(date +'%Y-%m-%d')" > date.txt
-          git config --local user.email "action@github.com"
-          git config --local user.name "GitHub Action"
+          git config --global user.email "action@gitea.local"
+          git config --global user.name "Gitea Action"
           git add qb_trackers_all.txt date.txt qb_trackers_best.txt
-          git commit -m "Update trackers: $(date +'%Y-%m-%d')" || echo "No changes to commit."
-          git push
+          git commit -m "Update trackers: $(date +'%Y-%m-%d')" || echo "No changes"
+          git push origin HEAD
