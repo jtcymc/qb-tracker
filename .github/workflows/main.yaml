@@ -29,8 +29,8 @@ jobs:
         run: |
           curl -sSL https://raw.githubusercontent.com/ngosang/trackerslist/master/trackers_all.txt > trackers_temp.txt
           curl -sSL https://raw.githubusercontent.com/XIU2/TrackersListCollection/master/all.txt >> trackers_temp.txt
-          curl https://raw.githubusercontent.com/hezhijie0327/Trackerslist/main/trackerslist_tracker.txt >> trackers_temp.txt
-          curl https://api.yaozuopan.top:88/composite?key=bt&auth=3cae9a3a53f1daef137126648a535ab7 >> trackers_temp.txt
+          curl -sSL https://raw.githubusercontent.com/hezhijie0327/Trackerslist/main/trackerslist_tracker.txt >> trackers_temp.txt
+          curl -sSL "https://api.yaozuopan.top:88/composite?key=bt&auth=3cae9a3a53f1daef137126648a535ab7" >> trackers_temp.txt
           echo "Downloaded tracker sources."
 
       - name: Format trackers
