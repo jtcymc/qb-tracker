@@ -1,8 +1,8 @@
 #!/bin/bash
 
 # 用法提示
-if [ "$#" -ne 1 ]; then
-    echo "Usage: $0 <file>"
+if [ "$#" -ne 2 ]; then
+    echo "Usage: $0 <file> <output_file>"
     exit 1
 fi
 
