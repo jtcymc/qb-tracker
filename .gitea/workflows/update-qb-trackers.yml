@@ -36,7 +36,7 @@ jobs:
           rm -f trackers_temp.txt formatted_trackers.txt
 
       - name: Test tracker availability
-        run: bash test_trackers.sh qb_trackers_all.txt
+        run: bash test_trackers.sh qb_trackers_all.txt qb_trackers_best.txt
 
       - name: Commit and push changes
         run: |

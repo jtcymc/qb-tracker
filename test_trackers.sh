@@ -7,7 +7,7 @@ if [ "$#" -ne 1 ]; then
 fi
 
 input_file="$1"
-output_file="qb_trackers_best.txt"
+output_file="$2"
 
 # 检查文件是否存在且非空
 if [ ! -s "$input_file" ]; then

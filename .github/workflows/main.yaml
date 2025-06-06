@@ -38,19 +38,19 @@ jobs:
       - name: Format trackers
         run: |
           bash format.sh trackers_temp.txt
-          sort -u formatted_trackers.txt > qb_trackers_all.txt
+          sort -u formatted_trackers.txt > qb_trackers_hub_all.txt
           rm -f trackers_temp.txt formatted_trackers.txt
 
       - name: Test tracker availability
         run: |
-          bash test_trackers.sh qb_trackers_all.txt
+          bash test_trackers.sh qb_trackers_hub_all.txt qb_trackers_hub_best.txt
         shell: bash
 
       - name: Commit and push changes
         run: |
-          echo "$(date +'%Y-%m-%d')" > date.txt
+          echo "$(date +'%Y-%m-%d')" > hub_date.txt
           git config --local user.email "action@github.com"
           git config --local user.name "GitHub Action"
-          git add qb_trackers_all.txt date.txt qb_trackers_best.txt
+          git add qb_trackers_hub_all.txt hub_date.txt qb_trackers_hub_best.txt
           git commit -m "Update trackers: $(date +'%Y-%m-%d')" || echo "No changes to commit."
           git push
