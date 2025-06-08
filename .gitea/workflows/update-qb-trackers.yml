@@ -7,7 +7,7 @@ on:
     paths-ignore:
       - ".github/**"
   schedule:
-    - cron: "0 12 * * *" # 每天 UTC 中午12点
+    - cron: "0 */12 * * *" # 每天 UTC 中午12点
 
 jobs:
   update-trackers:
