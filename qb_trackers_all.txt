@@ -7,12 +7,12 @@ http://11.rarbg.com/announce
 http://123.245.62.16:6969/announce
 http://1337.abcvg.info/announce
 http://147job.com:6969/announce
-http://204.197.163.27/announce
 http://207.241.226.111:6969/announce
 http://207.241.231.226:6969/announce
-http://210.61.187.209:6969/announce
-http://211.75.205.189/announce
-http://211.75.210.221:6969/announce
+http://211.75.205.187:6969/announce
+http://211.75.210.221/announce
+http://35.227.59.57/announce
+http://60.249.37.20:6969/announce
 http://[2a04:ac00:1:3dd8::1:2710]:2710/announce
 http://aaa.army:8866/announce
 http://aboutbeautifulgallopinghorsesinthegreenpasture.online/announce
@@ -142,7 +142,6 @@ http://torrent-team.net/announce
 http://torrent-tracker.ru/announce
 http://torrent.arjlover.net:2710/announce
 http://torrent.fedoraproject.org:6969/announce
-http://torrent.hificode.in:6969/announce
 http://torrent.mp3quran.net/announce
 http://torrent.nwps.ws/announce
 http://torrent.ubuntu.com:6969/announce
@@ -159,7 +158,6 @@ http://tr1.aag.moe:2095/announce
 http://tracker-rh.zhuqiy.eu.org/announce
 http://tracker-udp.anirena.com/announce
 http://tracker-udp.gbitt.info/announce
-http://tracker-zhuqiy.dgj055.icu/announce
 http://tracker.23794.top:6969/announce
 http://tracker.ali213.net:8000/announce
 http://tracker.ali213.net:8080/announce
@@ -209,6 +207,7 @@ http://tracker.lelux.fi/announce
 http://tracker.letpo.com/announce
 http://tracker.linkomanija.org:2710/announce
 http://tracker.lintk.me:2710/announce
+http://tracker.lyretain.site:2710/announce
 http://tracker.m-team.cc/announce
 http://tracker.moxing.party:6969/announce
 http://tracker.mywaifu.best:6969/announce
@@ -471,10 +470,10 @@ udp://147job.com:6969/announce
 udp://1c.premierzal.ru:6969/announce
 udp://207.241.226.111:6969/announce
 udp://207.241.231.226:6969/announce
-udp://23.134.88.9:1337/announce
+udp://23.168.232.9:1337/announce
 udp://47.ip-51-68-199.eu:6969/announce
+udp://51.222.82.36:6969/announce
 udp://52.58.128.163:6969/announce
-udp://54.39.48.3:6969/announce
 udp://6.pocketnet.app:6969/announce
 udp://6ahddutb1ucc3cp.ru:6969/announce
 udp://7p41a8967.wicp.vip:22222/announce
@@ -657,10 +656,12 @@ udp://tracker.btsync.gq:233/announce
 udp://tracker.cubonegro.xyz:6969/announce
 udp://tracker.cyberia.is:6969/announce
 udp://tracker.darkness.services:6969/announce
+udp://tracker.ddunlimited.net:6969/announce
 udp://tracker.deadorbit.nl:6969/announce
 udp://tracker.dler.com:6969/announce
 udp://tracker.dler.org:6969/announce
 udp://tracker.ducks.party:1984/announce
+udp://tracker.dump.cl:6969/announce
 udp://tracker.edkj.club:6969/announce
 udp://tracker.etree.org:6969/announce
 udp://tracker.filemail.com:6969/announce
