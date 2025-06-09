@@ -1,3 +1,5 @@
+![Alt](https://repobeats.axiom.co/api/embed/49276d6c0e4a861f174ef63c3bf9569e023bc2dd.svg "Repobeats analytics image")
+
 # 🛑 免责声明 / Disclaimer
 
 本项目所提供的 BT Tracker 列表仅用于学习、研究和测试用途。
