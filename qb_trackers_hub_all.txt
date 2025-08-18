@@ -15,7 +15,6 @@ http://all4nothin.net/announce
 http://anidex.moe:6969/announce
 http://anisource.spb.ru/announce
 http://announce.partis.si/announce
-http://atrack.pow7.com/announce
 http://baibako.tv/announce
 http://big-boss-tracker.net/announce
 http://bigfoot1942.sektori.org:6969/announce
@@ -133,6 +132,7 @@ http://smurfsoft.com:6969/announce
 http://speedtest.iperson.xyz:6969/announce
 http://sukebei.tracker.wf:8888/announce
 http://t.jaekr.sh:6969/announce
+http://t.overflow.biz:6969/announce
 http://t1.pow7.com/announce
 http://t2.leech.ie/announce
 http://t2.pow7.com/announce
@@ -159,11 +159,13 @@ http://torrentsmd.com:8080/announce
 http://torrenttracker.nwc.acsalaska.net:6969/announce
 http://torrentzilla.org/announce
 http://tr.cili001.com:8070/announce
+http://tr.kxmp.cf/announce
 http://tr.nyacat.pw/announce
 http://tr1.aag.moe:2095/announce
 http://tracker-rh.zhuqiy.eu.org/announce
 http://tracker-udp.anirena.com/announce
 http://tracker-udp.gbitt.info/announce
+http://tracker-zhuqiy.dgj055.icu/announce
 http://tracker.23794.top:6969/announce
 http://tracker.anirena.com/announce
 http://tracker.baka-sub.cf/announce
@@ -188,6 +190,7 @@ http://tracker.ddunlimited.net:6969/announce
 http://tracker.dler.com:6969/announce
 http://tracker.dler.org:6969/announce
 http://tracker.dmcomic.org:2710/announce
+http://tracker.dutchtracking.nl/announce
 http://tracker.edkj.club:6969/announce
 http://tracker.electro-torrent.pl/announce
 http://tracker.encrypted-data.xyz:1337/announce
@@ -322,6 +325,7 @@ http://www.yqzuji.com/announce
 http://www.zone-torrent.net/announce
 http://xtremewrestlingtorrents.net/announce
 http://yolo.liberbear.com/announce
+https://0d.kebhana.mx/announce
 https://1.tracker.eu.org/announce
 https://1337.abcvg.info/announce
 https://2.tracker.eu.org/announce
@@ -360,7 +364,6 @@ https://opentracker.xyz/announce
 https://prestige.minimafia.nl/announce
 https://private.minimafia.nl/announce
 https://pybittrack.retiolus.net/announce
-https://seeders-paradise.org/announce
 https://shahidrazi.online/announce
 https://socket.onvo.me/announce
 https://t.213891.xyz/announce
@@ -374,6 +377,8 @@ https://t1.tokhmi.xyz/announce
 https://t2.leech.ie/announce
 https://t3.leech.ie/announce
 https://threads.canofsocks.com/announce
+https://tk.mabo.ltd/announce
+https://torrent-tracker.hama3.net/announce
 https://torrent.opiums.eu/announce
 https://torrent.tracker.durukanbal.com/announce
 https://torrent.ubuntu.com/announce
@@ -382,6 +387,8 @@ https://torrust.canofsocks.com/announce
 https://tp.m-team.cc/announce
 https://tr.abiir.top/announce
 https://tr.abir.ga/announce
+https://tr.doogh.club/announce
+https://tr.fuckbitcoin.xyz/announce
 https://tr.highstar.shop/announce
 https://tr.nyacat.pw/announce
 https://tr.qfruiti.com/announce
@@ -416,6 +423,7 @@ https://tracker.gcrenwp.top/announce
 https://tracker.ghostchu-services.top/announce
 https://tracker.guguan.dpdns.org/announce
 https://tracker.guguan.us.kg/announce
+https://tracker.h3o2.me/announce
 https://tracker.imgoingto.icu/announce
 https://tracker.iriseden.fr/announce
 https://tracker.itscraftsoftware.my.id/announce
@@ -492,6 +500,7 @@ udp://[2a0f:e586:f:f::81]:6969/announce
 udp://aaa.army:8866/announce
 udp://aarsen.me:6969/announce
 udp://acxx.de:6969/announce
+udp://admin.52ywp.com:6969/announce
 udp://admin.videoenpoche.info:6969/announce
 udp://aegir.sexy:6969/announce
 udp://amigacity.xyz:6969/announce
@@ -550,8 +559,6 @@ udp://fosstorrents.com:6969/announce
 udp://free.publictracker.xyz:6969/announce
 udp://freedom.1776.ga:6969/announce
 udp://freedomalternative.com:6969/announce
-udp://glotorrents.pw:6969/announce
-udp://hbsy.zhuqiy.eu.org:6666/announce
 udp://hificode.in:6969/announce
 udp://home.kray.pw:6969/announce
 udp://home.yxgz.club:6969/announce
@@ -636,6 +643,7 @@ udp://speedtest.iperson.xyz:6969/announce
 udp://srv5.digiboy.ir:6969/announce
 udp://static.54.161.216.95.clients.your-server.de:6969/announce
 udp://su-data.com:6969/announce
+udp://t.jaekr.sh:6969/announce
 udp://t.overflow.biz:6969/announce
 udp://t.zerg.pw:6969/announce
 udp://taciturn-shadow.spb.ru:6969/announce
@@ -646,6 +654,7 @@ udp://theodoric.fr:6969/announce
 udp://thinking.duckdns.org:6969/announce
 udp://thouvenin.cloud:6969/announce
 udp://torrent.fedoraproject.org:6969/announce
+udp://torrent.hificode.in:6969/announce
 udp://torrent.ubuntu.com:6969/announce
 udp://torrentclub.space:6969/announce
 udp://torrents.artixlinux.org:6969/announce
