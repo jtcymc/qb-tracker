@@ -6,6 +6,7 @@ http://bt02.nnm-club.info:2710/announce
 http://extracker.dahrkael.net:6969/announce
 http://h4.trakx.nibba.trade/announce
 http://i.bandito.org/announce
+http://irrenhaus.dyndns.dk/announce
 http://kinorun.com/announce
 http://nagios.tks.sumy.ua/announce
 http://open.acgtracker.com:1096/announce
@@ -21,7 +22,6 @@ http://torrent.nwps.ws/announce
 http://torrent.ubuntu.com:6969/announce
 http://torrent.unix-ag.uni-kl.de/announce
 http://torrentzilla.org/announce
-http://tr.nyacat.pw/announce
 http://tracker-udp.anirena.com/announce
 http://tracker.bt-chat.com/announce
 http://tracker.bt4g.com:2095/announce
@@ -41,8 +41,6 @@ http://www.yqzuji.com/announce
 https://1337.abcvg.info/announce
 https://bt.beatrice-raws.org/announce
 https://t.213891.xyz/announce
-https://torrent.tracker.durukanbal.com/announce
-https://tr.nyacat.pw/announce
 https://tracker.bt4g.com/announce
 https://tracker.cyber-hub.net/announce
 https://tracker.iochimari.moe/announce
@@ -80,6 +78,8 @@ udp://bry-dell-htpc.freeddns.org:6969/announce
 udp://bt.bontal.net:6969/announce
 udp://bt.ktrackers.com:6666/announce
 udp://bt.rer.lol:6969/announce
+udp://bt1.xxxxbt.cc:6969/announce
+udp://bt2.archive.org:6969/announce
 udp://bttracker.debian.org:6969/announce
 udp://bubu.mapfactor.com:6969/announce
 udp://buddyfly.top:6969/announce
@@ -103,10 +103,10 @@ udp://explodie.org:6969/announce
 udp://extracker.dahrkael.net:6969/announce
 udp://f1sh.de:6969/announce
 udp://files.project-cataclysm.ru:6969/announce
-udp://fosstorrents.com:6969/announce
 udp://freedomalternative.com:6969/announce
 udp://home.kray.pw:6969/announce
 udp://home.yxgz.club:6969/announce
+udp://ibksturm.synology.me:6969/announce
 udp://incine.ru:6969/announce
 udp://inferno.demonoid.is:3391/announce
 udp://ipv4announce.sktorrent.eu:6969/announce
@@ -136,6 +136,7 @@ udp://open-tracker.demonoid.ch:6969/announce
 udp://open.demonii.com:1337/announce
 udp://open.demonoid.ch:6969/announce
 udp://open.dstud.io:6969/announce
+udp://open.free-tracker.ga:6969/announce
 udp://open.stealth.si:6969/announce
 udp://open.stealth.si:80/announce
 udp://open.tracker.cl:1337/announce
@@ -184,6 +185,7 @@ udp://tracker-de-2.cutie.dating:1337/announce
 udp://tracker-udp.gbitt.info:80/announce
 udp://tracker.1h.is:1337/announce
 udp://tracker.4.babico.name.tr:3131/announce
+udp://tracker.auctor.tv:6969/announce
 udp://tracker.bitcoinindia.space:6969/announce
 udp://tracker.bitsearch.to:1337/announce
 udp://tracker.bittor.pw:1337/announce
