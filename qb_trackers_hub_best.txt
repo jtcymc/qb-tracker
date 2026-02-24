@@ -1,6 +1,9 @@
 http://1337.abcvg.info/announce
+http://asiatorrent.giize.com:51413/announce
 http://bt.beatrice-raws.org/announce
+http://bt.nnm-club.info:2710/announce
 http://bt.okmp3.ru:2710/announce
+http://bt02.nnm-club.cc:2710/announce
 http://extracker.dahrkael.net:6969/announce
 http://grifon.info/announce
 http://h4.trakx.nibba.trade/announce
@@ -12,6 +15,7 @@ http://nagios.tks.sumy.ua/announce
 http://open.acgtracker.com:1096/announce
 http://open.stealth.si/announce
 http://peersteers.org/announce
+http://retracker.joxnet.ru/announce
 http://siambit.com/announce
 http://thetracker.org/announce
 http://torrent.nwps.ws/announce
@@ -22,7 +26,6 @@ http://tracker-udp.anirena.com/announce
 http://tracker.bt-chat.com/announce
 http://tracker.bt4g.com:2095/announce
 http://tracker.fansub.id/announce
-http://tracker.memelords.xyz/announce
 http://tracker.minglong.org:8080/announce
 http://tracker.openzim.org/announce
 http://tracker.tfile.co/announce
@@ -39,6 +42,7 @@ http://www.yqzuji.com/announce
 https://1337.abcvg.info/announce
 https://bt.beatrice-raws.org/announce
 https://t.213891.xyz/announce
+https://t1.tokhmi.xyz/announce
 https://tr.nyacat.pw/announce
 https://tracker.bt4g.com/announce
 https://tracker.iochimari.moe/announce
@@ -48,7 +52,6 @@ https://tracker.qingwapt.org/announce
 https://tracker.renfei.net/announce
 https://tracker.zhuqiy.com/announce
 https://tracker1.520.jp/announce
-https://www.wareztorrent.com/announce
 udp://52.58.128.163:6969/announce
 udp://admin.52ywp.com:6969/announce
 udp://bandito.byterunner.io:6969/announce
@@ -58,12 +61,10 @@ udp://evan.im:6969/announce
 udp://exodus.desync.com:6969/announce
 udp://explodie.org:6969/announce
 udp://extracker.dahrkael.net:6969/announce
-udp://ibksturm.synology.me:6969/announce
 udp://ipv4announce.sktorrent.eu:6969/announce
 udp://leet-tracker.moe:1337/announce
 udp://martin-gebhardt.eu:25/announce
-udp://navegador.click:6969/announce
-udp://node01.trackerstatus.live:42069/announce
+udp://node02.madtia.cc:42069/announce
 udp://ns575949.ip-51-222-82.net:6969/announce
 udp://open.demonii.com:1337/announce
 udp://open.dstud.io:6969/announce
@@ -113,10 +114,12 @@ udp://tracker.torrent.eu.org:451/announce
 udp://tracker.torrust-demo.com:6969/announce
 udp://tracker.tryhackx.org:6969/announce
 udp://tracker.tvunderground.org.ru:3218/announce
+udp://tracker.wepzone.net:6969/announce
 udp://tracker.zupix.online:6969/announce
 udp://tracker3.itzmx.com:6961/announce
 udp://tracker4.itzmx.com:2710/announce
 udp://uabits.today:6990/announce
 udp://udp.tracker.projectk.org:23333/announce
 udp://utracker.ghostchu-services.top:6969/announce
+udp://wepzone.net:6969/announce
 wss://qot.abiir.top:443/announce
