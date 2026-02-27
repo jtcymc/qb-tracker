@@ -1,3 +1,4 @@
+http://1337.abcvg.info/announce
 http://bt.beatrice-raws.org/announce
 http://bt.okmp3.ru:2710/announce
 http://extracker.dahrkael.net:6969/announce
@@ -11,6 +12,7 @@ http://nagios.tks.sumy.ua/announce
 http://open.acgtracker.com:1096/announce
 http://open.stealth.si/announce
 http://peersteers.org/announce
+http://retracker.joxnet.ru/announce
 http://siambit.com/announce
 http://thetracker.org/announce
 http://torrent.nwps.ws/announce
@@ -34,6 +36,7 @@ http://tracker3.torrentino.com/announce
 http://uatracker.net/announce
 http://www.wareztorrent.com/announce
 http://www.yqzuji.com/announce
+https://1337.abcvg.info/announce
 https://bt.beatrice-raws.org/announce
 https://t.213891.xyz/announce
 https://t1.tokhmi.xyz/announce
@@ -56,12 +59,13 @@ udp://evan.im:6969/announce
 udp://exodus.desync.com:6969/announce
 udp://explodie.org:6969/announce
 udp://extracker.dahrkael.net:6969/announce
+udp://ibksturm.synology.me:6969/announce
 udp://ipv4announce.sktorrent.eu:6969/announce
 udp://leet-tracker.moe:1337/announce
 udp://martin-gebhardt.eu:25/announce
-udp://node02.madtia.cc:42069/announce
 udp://ns575949.ip-51-222-82.net:6969/announce
 udp://open.demonii.com:1337/announce
+udp://open.demonoid.ch:6969/announce
 udp://open.dstud.io:6969/announce
 udp://open.stealth.si:80/announce
 udp://opentor.org:2710/announce
@@ -90,7 +94,6 @@ udp://tracker.filemail.com:6969/announce
 udp://tracker.flatuslifir.is:6969/announce
 udp://tracker.fnix.net:6969/announce
 udp://tracker.gmi.gd:6969/announce
-udp://tracker.huadongblower.xyz:8080/announce
 udp://tracker.iperson.xyz:6969/announce
 udp://tracker.ixuexi.click:6969/announce
 udp://tracker.opentorrent.top:6969/announce
@@ -117,6 +120,5 @@ udp://tracker3.itzmx.com:6961/announce
 udp://tracker4.itzmx.com:2710/announce
 udp://uabits.today:6990/announce
 udp://udp.tracker.projectk.org:23333/announce
-udp://utracker.ghostchu-services.top:6969/announce
 udp://wepzone.net:6969/announce
 wss://qot.abiir.top:443/announce
